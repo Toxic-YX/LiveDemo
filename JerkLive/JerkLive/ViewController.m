@@ -13,20 +13,23 @@
 @property (atomic, strong) NSURL *url;
 @property (atomic, retain) id <IJKMediaPlayback> player;
 @property (weak, nonatomic) UIView *PlayerView;
+
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8
     // https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
-    self.url = [NSURL URLWithString:@"http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"];
+    self.url = [NSURL URLWithString:_vlcUrlStr];
     _player = [[IJKFFMoviePlayerController alloc] initWithContentURL:self.url withOptions:nil];
     
     UIView *playerView = [self.player view];
     
-    UIView *displayView = [[UIView alloc] initWithFrame:CGRectMake(0, 50, self.view.bounds.size.width, 180)];
+    UIView *displayView = [[UIView alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, 220)];
     self.PlayerView = displayView;
     self.PlayerView.backgroundColor = [UIColor blackColor];
     [self.view addSubview:self.PlayerView];
@@ -44,6 +47,15 @@
     if (![self.player isPlaying]) {
         [self.player prepareToPlay];
     }
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    // 界面消失，一定要记得停止播放
+    [self.player pause];
+    [self.player stop];
+    [self.player shutdown];
 }
 
 - (IBAction)playOrStop:(UIButton *)sender {

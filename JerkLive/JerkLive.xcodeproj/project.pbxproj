@@ -26,6 +26,8 @@
 		59FF503D1EB2D88A0076F3A5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FF503C1EB2D88A0076F3A5 /* MobileCoreServices.framework */; };
 		59FF50411EB2D89D0076F3A5 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FF50401EB2D89D0076F3A5 /* VideoToolbox.framework */; };
 		59FF50461EB2DE6B0076F3A5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FF50441EB2DE100076F3A5 /* libc++.tbd */; };
+		59FF50731EB321680076F3A5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FF50721EB321680076F3A5 /* TableViewController.m */; };
+		59FF50761EB321E90076F3A5 /* VLCAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FF50751EB321E90076F3A5 /* VLCAddress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,10 @@
 		59FF50401EB2D89D0076F3A5 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		59FF50421EB2D8A50076F3A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		59FF50441EB2DE100076F3A5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		59FF50711EB321680076F3A5 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		59FF50721EB321680076F3A5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		59FF50741EB321E90076F3A5 /* VLCAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLCAddress.h; sourceTree = "<group>"; };
+		59FF50751EB321E90076F3A5 /* VLCAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLCAddress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 			children = (
 				59FF50051EB1F1360076F3A5 /* AppDelegate.h */,
 				59FF50061EB1F1360076F3A5 /* AppDelegate.m */,
+				59FF50711EB321680076F3A5 /* TableViewController.h */,
+				59FF50721EB321680076F3A5 /* TableViewController.m */,
+				59FF50741EB321E90076F3A5 /* VLCAddress.h */,
+				59FF50751EB321E90076F3A5 /* VLCAddress.m */,
 				59FF50081EB1F1360076F3A5 /* ViewController.h */,
 				59FF50091EB1F1360076F3A5 /* ViewController.m */,
 				59FF500B1EB1F1360076F3A5 /* Main.storyboard */,
@@ -279,6 +289,8 @@
 				59FF500A1EB1F1360076F3A5 /* ViewController.m in Sources */,
 				59FF50071EB1F1360076F3A5 /* AppDelegate.m in Sources */,
 				59FF50041EB1F1360076F3A5 /* main.m in Sources */,
+				59FF50761EB321E90076F3A5 /* VLCAddress.m in Sources */,
+				59FF50731EB321680076F3A5 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
