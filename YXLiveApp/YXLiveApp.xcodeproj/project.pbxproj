@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14E3C3DFE4C6F828E7062698 /* libPods-YXLiveApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0822E23538C4A0D7560F112C /* libPods-YXLiveApp.a */; };
+		5993B3261EB86D3B00FE39E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B3251EB86D3B00FE39E3 /* main.m */; };
+		5993B3291EB86D3B00FE39E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B3281EB86D3B00FE39E3 /* AppDelegate.m */; };
+		5993B32F1EB86D3B00FE39E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5993B32D1EB86D3B00FE39E3 /* Main.storyboard */; };
+		5993B3311EB86D3B00FE39E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5993B3301EB86D3B00FE39E3 /* Assets.xcassets */; };
+		5993B3341EB86D3B00FE39E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5993B3321EB86D3B00FE39E3 /* LaunchScreen.storyboard */; };
+		5993B33F1EB86D3B00FE39E3 /* YXLiveAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B33E1EB86D3B00FE39E3 /* YXLiveAppUITests.m */; };
+		5993B35D1EB86DFA00FE39E3 /* YXBroadcastListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B35B1EB86DFA00FE39E3 /* YXBroadcastListController.m */; };
+		5993B35E1EB86DFA00FE39E3 /* YXBroadcastListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5993B35C1EB86DFA00FE39E3 /* YXBroadcastListController.xib */; };
+		5993B3621EB86E0C00FE39E3 /* YXCaputureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B3601EB86E0C00FE39E3 /* YXCaputureController.m */; };
+		5993B3631EB86E0C00FE39E3 /* YXCaputureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5993B3611EB86E0C00FE39E3 /* YXCaputureController.xib */; };
+		5993B3671EB86E1900FE39E3 /* YXLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B3651EB86E1900FE39E3 /* YXLiveViewController.m */; };
+		5993B3681EB86E1900FE39E3 /* YXLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5993B3661EB86E1900FE39E3 /* YXLiveViewController.xib */; };
+		5993B36B1EB86E2F00FE39E3 /* YXMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B36A1EB86E2F00FE39E3 /* YXMainController.m */; };
+		5993B36E1EB86F2800FE39E3 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993B36D1EB86F2800FE39E3 /* IJKMediaFramework.framework */; };
+		5993B3701EB86FC700FE39E3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993B36F1EB86FC600FE39E3 /* libc++.tbd */; };
+		5993B3721EB86FD400FE39E3 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993B3711EB86FD400FE39E3 /* VideoToolbox.framework */; };
+		5993B3741EB86FE000FE39E3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993B3731EB86FE000FE39E3 /* MobileCoreServices.framework */; };
+		5993B3761EB86FF000FE39E3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993B3751EB86FF000FE39E3 /* MediaPlayer.framework */; };
+		5993B3781EB86FFB00FE39E3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993B3771EB86FFB00FE39E3 /* OpenGLES.framework */; };
+		5993B37A1EB8700500FE39E3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993B3791EB8700500FE39E3 /* CoreVideo.framework */; };
+		5993B37C1EB8700F00FE39E3 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993B37B1EB8700F00FE39E3 /* libbz2.tbd */; };
+		5993B37E1EB8701800FE39E3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993B37D1EB8701800FE39E3 /* libz.tbd */; };
+		5993B3801EB8702600FE39E3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993B37F1EB8702600FE39E3 /* AudioToolbox.framework */; };
+		5993B3821EB8702C00FE39E3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5993B3811EB8702C00FE39E3 /* AVFoundation.framework */; };
+		5993B3851EB876E000FE39E3 /* YXLiveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B3841EB876E000FE39E3 /* YXLiveItem.m */; };
+		5993B3881EB876F000FE39E3 /* YXCreatorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B3871EB876F000FE39E3 /* YXCreatorItem.m */; };
+		5993B38C1EB8771900FE39E3 /* YXLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B38A1EB8771900FE39E3 /* YXLiveCell.m */; };
+		5993B38D1EB8771900FE39E3 /* YXLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5993B38B1EB8771900FE39E3 /* YXLiveCell.xib */; };
+		5993B3901EB87C6700FE39E3 /* YXLiveEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B38F1EB87C6700FE39E3 /* YXLiveEntity.m */; };
+		5993B39A1EB87D7B00FE39E3 /* YXHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B3991EB87D7B00FE39E3 /* YXHTTPManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5993B33B1EB86D3B00FE39E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5993B3191EB86D3A00FE39E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5993B3201EB86D3B00FE39E3;
+			remoteInfo = YXLiveApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0822E23538C4A0D7560F112C /* libPods-YXLiveApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXLiveApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5993B3211EB86D3B00FE39E3 /* YXLiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXLiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5993B3251EB86D3B00FE39E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5993B3271EB86D3B00FE39E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5993B3281EB86D3B00FE39E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5993B32E1EB86D3B00FE39E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5993B3301EB86D3B00FE39E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5993B3331EB86D3B00FE39E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5993B3351EB86D3B00FE39E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5993B33A1EB86D3B00FE39E3 /* YXLiveAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXLiveAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5993B33E1EB86D3B00FE39E3 /* YXLiveAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXLiveAppUITests.m; sourceTree = "<group>"; };
+		5993B3401EB86D3B00FE39E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5993B35A1EB86DFA00FE39E3 /* YXBroadcastListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBroadcastListController.h; sourceTree = "<group>"; };
+		5993B35B1EB86DFA00FE39E3 /* YXBroadcastListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBroadcastListController.m; sourceTree = "<group>"; };
+		5993B35C1EB86DFA00FE39E3 /* YXBroadcastListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBroadcastListController.xib; sourceTree = "<group>"; };
+		5993B35F1EB86E0C00FE39E3 /* YXCaputureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXCaputureController.h; sourceTree = "<group>"; };
+		5993B3601EB86E0C00FE39E3 /* YXCaputureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXCaputureController.m; sourceTree = "<group>"; };
+		5993B3611EB86E0C00FE39E3 /* YXCaputureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXCaputureController.xib; sourceTree = "<group>"; };
+		5993B3641EB86E1900FE39E3 /* YXLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLiveViewController.h; sourceTree = "<group>"; };
+		5993B3651EB86E1900FE39E3 /* YXLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLiveViewController.m; sourceTree = "<group>"; };
+		5993B3661EB86E1900FE39E3 /* YXLiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXLiveViewController.xib; sourceTree = "<group>"; };
+		5993B3691EB86E2F00FE39E3 /* YXMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXMainController.h; sourceTree = "<group>"; };
+		5993B36A1EB86E2F00FE39E3 /* YXMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXMainController.m; sourceTree = "<group>"; };
+		5993B36D1EB86F2800FE39E3 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		5993B36F1EB86FC600FE39E3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		5993B3711EB86FD400FE39E3 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		5993B3731EB86FE000FE39E3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5993B3751EB86FF000FE39E3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5993B3771EB86FFB00FE39E3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5993B3791EB8700500FE39E3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5993B37B1EB8700F00FE39E3 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		5993B37D1EB8701800FE39E3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5993B37F1EB8702600FE39E3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5993B3811EB8702C00FE39E3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5993B3831EB876E000FE39E3 /* YXLiveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLiveItem.h; sourceTree = "<group>"; };
+		5993B3841EB876E000FE39E3 /* YXLiveItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLiveItem.m; sourceTree = "<group>"; };
+		5993B3861EB876F000FE39E3 /* YXCreatorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXCreatorItem.h; sourceTree = "<group>"; };
+		5993B3871EB876F000FE39E3 /* YXCreatorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXCreatorItem.m; sourceTree = "<group>"; };
+		5993B3891EB8771900FE39E3 /* YXLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLiveCell.h; sourceTree = "<group>"; };
+		5993B38A1EB8771900FE39E3 /* YXLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLiveCell.m; sourceTree = "<group>"; };
+		5993B38B1EB8771900FE39E3 /* YXLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXLiveCell.xib; sourceTree = "<group>"; };
+		5993B38E1EB87C6700FE39E3 /* YXLiveEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLiveEntity.h; sourceTree = "<group>"; };
+		5993B38F1EB87C6700FE39E3 /* YXLiveEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLiveEntity.m; sourceTree = "<group>"; };
+		5993B3981EB87D7B00FE39E3 /* YXHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXHTTPManager.h; sourceTree = "<group>"; };
+		5993B3991EB87D7B00FE39E3 /* YXHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXHTTPManager.m; sourceTree = "<group>"; };
+		DB7443EA63BBD740628F07A1 /* Pods-YXLiveApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXLiveApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXLiveApp/Pods-YXLiveApp.release.xcconfig"; sourceTree = "<group>"; };
+		EDDD25D3E08DFC43149D026C /* Pods-YXLiveApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXLiveApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXLiveApp/Pods-YXLiveApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5993B31E1EB86D3B00FE39E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5993B3821EB8702C00FE39E3 /* AVFoundation.framework in Frameworks */,
+				5993B3801EB8702600FE39E3 /* AudioToolbox.framework in Frameworks */,
+				5993B37E1EB8701800FE39E3 /* libz.tbd in Frameworks */,
+				5993B37C1EB8700F00FE39E3 /* libbz2.tbd in Frameworks */,
+				5993B37A1EB8700500FE39E3 /* CoreVideo.framework in Frameworks */,
+				5993B3781EB86FFB00FE39E3 /* OpenGLES.framework in Frameworks */,
+				5993B3761EB86FF000FE39E3 /* MediaPlayer.framework in Frameworks */,
+				5993B3741EB86FE000FE39E3 /* MobileCoreServices.framework in Frameworks */,
+				5993B3721EB86FD400FE39E3 /* VideoToolbox.framework in Frameworks */,
+				5993B3701EB86FC700FE39E3 /* libc++.tbd in Frameworks */,
+				14E3C3DFE4C6F828E7062698 /* libPods-YXLiveApp.a in Frameworks */,
+				5993B36E1EB86F2800FE39E3 /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5993B3371EB86D3B00FE39E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5621714172625C8EC24D7A0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3811EB8702C00FE39E3 /* AVFoundation.framework */,
+				5993B37F1EB8702600FE39E3 /* AudioToolbox.framework */,
+				5993B37D1EB8701800FE39E3 /* libz.tbd */,
+				5993B37B1EB8700F00FE39E3 /* libbz2.tbd */,
+				5993B3791EB8700500FE39E3 /* CoreVideo.framework */,
+				5993B3771EB86FFB00FE39E3 /* OpenGLES.framework */,
+				5993B3751EB86FF000FE39E3 /* MediaPlayer.framework */,
+				5993B3731EB86FE000FE39E3 /* MobileCoreServices.framework */,
+				5993B3711EB86FD400FE39E3 /* VideoToolbox.framework */,
+				5993B36F1EB86FC600FE39E3 /* libc++.tbd */,
+				0822E23538C4A0D7560F112C /* libPods-YXLiveApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5993B3181EB86D3A00FE39E3 = {
+			isa = PBXGroup;
+			children = (
+				5993B3231EB86D3B00FE39E3 /* YXLiveApp */,
+				5993B33D1EB86D3B00FE39E3 /* YXLiveAppUITests */,
+				5993B3221EB86D3B00FE39E3 /* Products */,
+				6D0F6AC30AAF0B72ED1616C1 /* Pods */,
+				5621714172625C8EC24D7A0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5993B3221EB86D3B00FE39E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3211EB86D3B00FE39E3 /* YXLiveApp.app */,
+				5993B33A1EB86D3B00FE39E3 /* YXLiveAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5993B3231EB86D3B00FE39E3 /* YXLiveApp */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3491EB86DCE00FE39E3 /* Classes */,
+				5993B3271EB86D3B00FE39E3 /* AppDelegate.h */,
+				5993B3281EB86D3B00FE39E3 /* AppDelegate.m */,
+				5993B32D1EB86D3B00FE39E3 /* Main.storyboard */,
+				5993B3301EB86D3B00FE39E3 /* Assets.xcassets */,
+				5993B3321EB86D3B00FE39E3 /* LaunchScreen.storyboard */,
+				5993B3351EB86D3B00FE39E3 /* Info.plist */,
+				5993B3241EB86D3B00FE39E3 /* Supporting Files */,
+			);
+			path = YXLiveApp;
+			sourceTree = "<group>";
+		};
+		5993B3241EB86D3B00FE39E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3251EB86D3B00FE39E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5993B33D1EB86D3B00FE39E3 /* YXLiveAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5993B33E1EB86D3B00FE39E3 /* YXLiveAppUITests.m */,
+				5993B3401EB86D3B00FE39E3 /* Info.plist */,
+			);
+			path = YXLiveAppUITests;
+			sourceTree = "<group>";
+		};
+		5993B3491EB86DCE00FE39E3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3911EB87CE500FE39E3 /* ServiceTool */,
+				5993B36C1EB86F1F00FE39E3 /* Frameworks */,
+				5993B34A1EB86DCE00FE39E3 /* BroadcastList */,
+				5993B34E1EB86DCE00FE39E3 /* Caputure */,
+				5993B3521EB86DCE00FE39E3 /* Live */,
+				5993B3561EB86DCE00FE39E3 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5993B34A1EB86DCE00FE39E3 /* BroadcastList */ = {
+			isa = PBXGroup;
+			children = (
+				5993B34B1EB86DCE00FE39E3 /* Controller */,
+				5993B34C1EB86DCE00FE39E3 /* Model */,
+				5993B34D1EB86DCE00FE39E3 /* View */,
+			);
+			path = BroadcastList;
+			sourceTree = "<group>";
+		};
+		5993B34B1EB86DCE00FE39E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5993B35A1EB86DFA00FE39E3 /* YXBroadcastListController.h */,
+				5993B35B1EB86DFA00FE39E3 /* YXBroadcastListController.m */,
+				5993B35C1EB86DFA00FE39E3 /* YXBroadcastListController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5993B34C1EB86DCE00FE39E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5993B34D1EB86DCE00FE39E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5993B34E1EB86DCE00FE39E3 /* Caputure */ = {
+			isa = PBXGroup;
+			children = (
+				5993B34F1EB86DCE00FE39E3 /* Controller */,
+				5993B3501EB86DCE00FE39E3 /* Model */,
+				5993B3511EB86DCE00FE39E3 /* View */,
+			);
+			path = Caputure;
+			sourceTree = "<group>";
+		};
+		5993B34F1EB86DCE00FE39E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5993B35F1EB86E0C00FE39E3 /* YXCaputureController.h */,
+				5993B3601EB86E0C00FE39E3 /* YXCaputureController.m */,
+				5993B3611EB86E0C00FE39E3 /* YXCaputureController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5993B3501EB86DCE00FE39E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5993B3511EB86DCE00FE39E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5993B3521EB86DCE00FE39E3 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3531EB86DCE00FE39E3 /* Controller */,
+				5993B3541EB86DCE00FE39E3 /* Model */,
+				5993B3551EB86DCE00FE39E3 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		5993B3531EB86DCE00FE39E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3641EB86E1900FE39E3 /* YXLiveViewController.h */,
+				5993B3651EB86E1900FE39E3 /* YXLiveViewController.m */,
+				5993B3661EB86E1900FE39E3 /* YXLiveViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5993B3541EB86DCE00FE39E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3831EB876E000FE39E3 /* YXLiveItem.h */,
+				5993B3841EB876E000FE39E3 /* YXLiveItem.m */,
+				5993B3861EB876F000FE39E3 /* YXCreatorItem.h */,
+				5993B3871EB876F000FE39E3 /* YXCreatorItem.m */,
+				5993B38E1EB87C6700FE39E3 /* YXLiveEntity.h */,
+				5993B38F1EB87C6700FE39E3 /* YXLiveEntity.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5993B3551EB86DCE00FE39E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3891EB8771900FE39E3 /* YXLiveCell.h */,
+				5993B38A1EB8771900FE39E3 /* YXLiveCell.m */,
+				5993B38B1EB8771900FE39E3 /* YXLiveCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5993B3561EB86DCE00FE39E3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3571EB86DCE00FE39E3 /* Controller */,
+				5993B3581EB86DCE00FE39E3 /* Model */,
+				5993B3591EB86DCE00FE39E3 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5993B3571EB86DCE00FE39E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3691EB86E2F00FE39E3 /* YXMainController.h */,
+				5993B36A1EB86E2F00FE39E3 /* YXMainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5993B3581EB86DCE00FE39E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5993B3591EB86DCE00FE39E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5993B36C1EB86F1F00FE39E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5993B36D1EB86F2800FE39E3 /* IJKMediaFramework.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		5993B3911EB87CE500FE39E3 /* ServiceTool */ = {
+			isa = PBXGroup;
+			children = (
+				5993B3981EB87D7B00FE39E3 /* YXHTTPManager.h */,
+				5993B3991EB87D7B00FE39E3 /* YXHTTPManager.m */,
+			);
+			path = ServiceTool;
+			sourceTree = "<group>";
+		};
+		6D0F6AC30AAF0B72ED1616C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD25D3E08DFC43149D026C /* Pods-YXLiveApp.debug.xcconfig */,
+				DB7443EA63BBD740628F07A1 /* Pods-YXLiveApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5993B3201EB86D3B00FE39E3 /* YXLiveApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5993B3431EB86D3B00FE39E3 /* Build configuration list for PBXNativeTarget "YXLiveApp" */;
+			buildPhases = (
+				A96EFD03B47DADA1B2A3F7E6 /* [CP] Check Pods Manifest.lock */,
+				5993B31D1EB86D3B00FE39E3 /* Sources */,
+				5993B31E1EB86D3B00FE39E3 /* Frameworks */,
+				5993B31F1EB86D3B00FE39E3 /* Resources */,
+				9F9FB63F56873C6C65B1E42E /* [CP] Embed Pods Frameworks */,
+				37E2D01A5CD0D9A38C2BCD71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXLiveApp;
+			productName = YXLiveApp;
+			productReference = 5993B3211EB86D3B00FE39E3 /* YXLiveApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5993B3391EB86D3B00FE39E3 /* YXLiveAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5993B3461EB86D3B00FE39E3 /* Build configuration list for PBXNativeTarget "YXLiveAppUITests" */;
+			buildPhases = (
+				5993B3361EB86D3B00FE39E3 /* Sources */,
+				5993B3371EB86D3B00FE39E3 /* Frameworks */,
+				5993B3381EB86D3B00FE39E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5993B33C1EB86D3B00FE39E3 /* PBXTargetDependency */,
+			);
+			name = YXLiveAppUITests;
+			productName = YXLiveAppUITests;
+			productReference = 5993B33A1EB86D3B00FE39E3 /* YXLiveAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5993B3191EB86D3A00FE39E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YX;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Rookie.YXiang;
+				TargetAttributes = {
+					5993B3201EB86D3B00FE39E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F5V2UR9J8H;
+						ProvisioningStyle = Automatic;
+					};
+					5993B3391EB86D3B00FE39E3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5993B3201EB86D3B00FE39E3;
+					};
+				};
+			};
+			buildConfigurationList = 5993B31C1EB86D3A00FE39E3 /* Build configuration list for PBXProject "YXLiveApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5993B3181EB86D3A00FE39E3;
+			productRefGroup = 5993B3221EB86D3B00FE39E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5993B3201EB86D3B00FE39E3 /* YXLiveApp */,
+				5993B3391EB86D3B00FE39E3 /* YXLiveAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5993B31F1EB86D3B00FE39E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5993B3631EB86E0C00FE39E3 /* YXCaputureController.xib in Resources */,
+				5993B3681EB86E1900FE39E3 /* YXLiveViewController.xib in Resources */,
+				5993B38D1EB8771900FE39E3 /* YXLiveCell.xib in Resources */,
+				5993B3341EB86D3B00FE39E3 /* LaunchScreen.storyboard in Resources */,
+				5993B3311EB86D3B00FE39E3 /* Assets.xcassets in Resources */,
+				5993B35E1EB86DFA00FE39E3 /* YXBroadcastListController.xib in Resources */,
+				5993B32F1EB86D3B00FE39E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5993B3381EB86D3B00FE39E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37E2D01A5CD0D9A38C2BCD71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXLiveApp/Pods-YXLiveApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F9FB63F56873C6C65B1E42E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXLiveApp/Pods-YXLiveApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96EFD03B47DADA1B2A3F7E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5993B31D1EB86D3B00FE39E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5993B39A1EB87D7B00FE39E3 /* YXHTTPManager.m in Sources */,
+				5993B3291EB86D3B00FE39E3 /* AppDelegate.m in Sources */,
+				5993B3851EB876E000FE39E3 /* YXLiveItem.m in Sources */,
+				5993B3881EB876F000FE39E3 /* YXCreatorItem.m in Sources */,
+				5993B36B1EB86E2F00FE39E3 /* YXMainController.m in Sources */,
+				5993B35D1EB86DFA00FE39E3 /* YXBroadcastListController.m in Sources */,
+				5993B3901EB87C6700FE39E3 /* YXLiveEntity.m in Sources */,
+				5993B3671EB86E1900FE39E3 /* YXLiveViewController.m in Sources */,
+				5993B38C1EB8771900FE39E3 /* YXLiveCell.m in Sources */,
+				5993B3621EB86E0C00FE39E3 /* YXCaputureController.m in Sources */,
+				5993B3261EB86D3B00FE39E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5993B3361EB86D3B00FE39E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5993B33F1EB86D3B00FE39E3 /* YXLiveAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5993B33C1EB86D3B00FE39E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5993B3201EB86D3B00FE39E3 /* YXLiveApp */;
+			targetProxy = 5993B33B1EB86D3B00FE39E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5993B32D1EB86D3B00FE39E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5993B32E1EB86D3B00FE39E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5993B3321EB86D3B00FE39E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5993B3331EB86D3B00FE39E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5993B3411EB86D3B00FE39E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5993B3421EB86D3B00FE39E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5993B3441EB86D3B00FE39E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDD25D3E08DFC43149D026C /* Pods-YXLiveApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5V2UR9J8H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YXLiveApp/Classes/Frameworks",
+				);
+				INFOPLIST_FILE = YXLiveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rookie.YXiang.YXLiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5993B3451EB86D3B00FE39E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB7443EA63BBD740628F07A1 /* Pods-YXLiveApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5V2UR9J8H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YXLiveApp/Classes/Frameworks",
+				);
+				INFOPLIST_FILE = YXLiveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rookie.YXiang.YXLiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5993B3471EB86D3B00FE39E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXLiveAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rookie.YXiang.YXLiveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXLiveApp;
+			};
+			name = Debug;
+		};
+		5993B3481EB86D3B00FE39E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXLiveAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rookie.YXiang.YXLiveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXLiveApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5993B31C1EB86D3A00FE39E3 /* Build configuration list for PBXProject "YXLiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5993B3411EB86D3B00FE39E3 /* Debug */,
+				5993B3421EB86D3B00FE39E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5993B3431EB86D3B00FE39E3 /* Build configuration list for PBXNativeTarget "YXLiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5993B3441EB86D3B00FE39E3 /* Debug */,
+				5993B3451EB86D3B00FE39E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5993B3461EB86D3B00FE39E3 /* Build configuration list for PBXNativeTarget "YXLiveAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5993B3471EB86D3B00FE39E3 /* Debug */,
+				5993B3481EB86D3B00FE39E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5993B3191EB86D3A00FE39E3 /* Project object */;
+}
