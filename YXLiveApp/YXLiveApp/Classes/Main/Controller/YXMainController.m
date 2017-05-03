@@ -49,6 +49,32 @@
     
 }
 
+/**
+ GPUImage原生美颜
+
+ @param sender <#sender description#>
+ */
+- (IBAction)GPUImageFilter:(id)sender {
+    [self pushSpecifiedController:@"YXGPUImageController"];
+}
+
+/**
+ 利用美颜滤镜美颜
+
+ @param sender <#sender description#>
+ */
+- (IBAction)beautifyFilter:(id)sender {
+    [self pushSpecifiedController:@"YXBeautifyFilterController"];
+}
+
+/**
+ 美图秀秀各种美颜
+
+ @param sender <#sender description#>
+ */
+- (IBAction)beautifyShows:(id)sender {
+    [self pushSpecifiedController:@"YXBeautifyShowController"];
+}
 
 /**
  跳转控制器

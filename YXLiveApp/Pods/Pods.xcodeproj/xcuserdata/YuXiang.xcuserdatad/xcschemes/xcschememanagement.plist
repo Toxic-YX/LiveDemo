@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>GPUImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>10EF9212AD7F1FB1F1DFDFA3B1F9D8AB</key>
+		<key>04E7C41519FD94D6EED6FF68E4692334</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3241FDF6A639ECD3A01E38AA0CCAD047</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5F4141F333495FDFCBBE90B7F4430515</key>
+		<key>4F69F82C1EEBC0A05686A3B0FECD2FDB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -53,6 +53,16 @@
 			<true/>
 		</dict>
 		<key>A316B54C67E947D23CECD230FA5BFAEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B055E0FA83D377BAED9B92AADC9EB3EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C58B9BC31DAF6C4F750F8C81AFCA0439</key>
 		<dict>
 			<key>primary</key>
 			<true/>

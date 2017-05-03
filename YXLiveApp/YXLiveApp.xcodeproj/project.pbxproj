@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		14E3C3DFE4C6F828E7062698 /* libPods-YXLiveApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0822E23538C4A0D7560F112C /* libPods-YXLiveApp.a */; };
+		59687C201EB96C10003437FE /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 59687C1F1EB96C10003437FE /* GPUImageBeautifyFilter.m */; };
+		59687C241EB96DBC003437FE /* YXBeautifyFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59687C221EB96DBC003437FE /* YXBeautifyFilterController.m */; };
+		59687C251EB96DBC003437FE /* YXBeautifyFilterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59687C231EB96DBC003437FE /* YXBeautifyFilterController.xib */; };
+		59687C291EB96DCB003437FE /* YXGPUImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59687C271EB96DCB003437FE /* YXGPUImageController.m */; };
+		59687C2A1EB96DCB003437FE /* YXGPUImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59687C281EB96DCB003437FE /* YXGPUImageController.xib */; };
+		59687C2E1EB96E12003437FE /* YXBeautifyShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59687C2C1EB96E12003437FE /* YXBeautifyShowController.m */; };
+		59687C2F1EB96E12003437FE /* YXBeautifyShowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59687C2D1EB96E12003437FE /* YXBeautifyShowController.xib */; };
 		5993B3261EB86D3B00FE39E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B3251EB86D3B00FE39E3 /* main.m */; };
 		5993B3291EB86D3B00FE39E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5993B3281EB86D3B00FE39E3 /* AppDelegate.m */; };
 		5993B32F1EB86D3B00FE39E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5993B32D1EB86D3B00FE39E3 /* Main.storyboard */; };
@@ -52,6 +59,17 @@
 
 /* Begin PBXFileReference section */
 		0822E23538C4A0D7560F112C /* libPods-YXLiveApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXLiveApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59687C1E1EB96C10003437FE /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		59687C1F1EB96C10003437FE /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		59687C211EB96DBC003437FE /* YXBeautifyFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBeautifyFilterController.h; sourceTree = "<group>"; };
+		59687C221EB96DBC003437FE /* YXBeautifyFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBeautifyFilterController.m; sourceTree = "<group>"; };
+		59687C231EB96DBC003437FE /* YXBeautifyFilterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBeautifyFilterController.xib; sourceTree = "<group>"; };
+		59687C261EB96DCB003437FE /* YXGPUImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXGPUImageController.h; sourceTree = "<group>"; };
+		59687C271EB96DCB003437FE /* YXGPUImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXGPUImageController.m; sourceTree = "<group>"; };
+		59687C281EB96DCB003437FE /* YXGPUImageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXGPUImageController.xib; sourceTree = "<group>"; };
+		59687C2B1EB96E12003437FE /* YXBeautifyShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBeautifyShowController.h; sourceTree = "<group>"; };
+		59687C2C1EB96E12003437FE /* YXBeautifyShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBeautifyShowController.m; sourceTree = "<group>"; };
+		59687C2D1EB96E12003437FE /* YXBeautifyShowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBeautifyShowController.xib; sourceTree = "<group>"; };
 		5993B3211EB86D3B00FE39E3 /* YXLiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXLiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5993B3251EB86D3B00FE39E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5993B3271EB86D3B00FE39E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -148,6 +166,63 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		59687C181EB96BCA003437FE /* BeautifyFilter */ = {
+			isa = PBXGroup;
+			children = (
+				59687C191EB96BCA003437FE /* Controller */,
+				59687C1A1EB96BCA003437FE /* Model */,
+				59687C1B1EB96BCA003437FE /* View */,
+			);
+			path = BeautifyFilter;
+			sourceTree = "<group>";
+		};
+		59687C191EB96BCA003437FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59687C211EB96DBC003437FE /* YXBeautifyFilterController.h */,
+				59687C221EB96DBC003437FE /* YXBeautifyFilterController.m */,
+				59687C231EB96DBC003437FE /* YXBeautifyFilterController.xib */,
+				59687C261EB96DCB003437FE /* YXGPUImageController.h */,
+				59687C271EB96DCB003437FE /* YXGPUImageController.m */,
+				59687C281EB96DCB003437FE /* YXGPUImageController.xib */,
+				59687C2B1EB96E12003437FE /* YXBeautifyShowController.h */,
+				59687C2C1EB96E12003437FE /* YXBeautifyShowController.m */,
+				59687C2D1EB96E12003437FE /* YXBeautifyShowController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		59687C1A1EB96BCA003437FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59687C1B1EB96BCA003437FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59687C1C1EB96C09003437FE /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				59687C1D1EB96C10003437FE /* GPUImageBeautifyFilter */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		59687C1D1EB96C10003437FE /* GPUImageBeautifyFilter */ = {
+			isa = PBXGroup;
+			children = (
+				59687C1E1EB96C10003437FE /* GPUImageBeautifyFilter.h */,
+				59687C1F1EB96C10003437FE /* GPUImageBeautifyFilter.m */,
+			);
+			path = GPUImageBeautifyFilter;
+			sourceTree = "<group>";
+		};
 		5993B3181EB86D3A00FE39E3 = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +278,8 @@
 		5993B3491EB86DCE00FE39E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				59687C1C1EB96C09003437FE /* Third */,
+				59687C181EB96BCA003437FE /* BeautifyFilter */,
 				5993B3911EB87CE500FE39E3 /* ServiceTool */,
 				5993B36C1EB86F1F00FE39E3 /* Frameworks */,
 				5993B34A1EB86DCE00FE39E3 /* BroadcastList */,
@@ -472,8 +549,11 @@
 			files = (
 				5993B3631EB86E0C00FE39E3 /* YXCaputureController.xib in Resources */,
 				5993B3681EB86E1900FE39E3 /* YXLiveViewController.xib in Resources */,
+				59687C2A1EB96DCB003437FE /* YXGPUImageController.xib in Resources */,
 				5993B38D1EB8771900FE39E3 /* YXLiveCell.xib in Resources */,
+				59687C251EB96DBC003437FE /* YXBeautifyFilterController.xib in Resources */,
 				5993B3341EB86D3B00FE39E3 /* LaunchScreen.storyboard in Resources */,
+				59687C2F1EB96E12003437FE /* YXBeautifyShowController.xib in Resources */,
 				5993B3311EB86D3B00FE39E3 /* Assets.xcassets in Resources */,
 				5993B35E1EB86DFA00FE39E3 /* YXBroadcastListController.xib in Resources */,
 				5993B32F1EB86D3B00FE39E3 /* Main.storyboard in Resources */,
@@ -544,15 +624,19 @@
 			files = (
 				5993B39A1EB87D7B00FE39E3 /* YXHTTPManager.m in Sources */,
 				5993B3291EB86D3B00FE39E3 /* AppDelegate.m in Sources */,
+				59687C2E1EB96E12003437FE /* YXBeautifyShowController.m in Sources */,
 				5993B3851EB876E000FE39E3 /* YXLiveItem.m in Sources */,
 				5993B3881EB876F000FE39E3 /* YXCreatorItem.m in Sources */,
 				5993B36B1EB86E2F00FE39E3 /* YXMainController.m in Sources */,
+				59687C241EB96DBC003437FE /* YXBeautifyFilterController.m in Sources */,
 				5993B35D1EB86DFA00FE39E3 /* YXBroadcastListController.m in Sources */,
 				5993B3901EB87C6700FE39E3 /* YXLiveEntity.m in Sources */,
 				5993B3671EB86E1900FE39E3 /* YXLiveViewController.m in Sources */,
 				5993B38C1EB8771900FE39E3 /* YXLiveCell.m in Sources */,
+				59687C201EB96C10003437FE /* GPUImageBeautifyFilter.m in Sources */,
 				5993B3621EB86E0C00FE39E3 /* YXCaputureController.m in Sources */,
 				5993B3261EB86D3B00FE39E3 /* main.m in Sources */,
+				59687C291EB96DCB003437FE /* YXGPUImageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

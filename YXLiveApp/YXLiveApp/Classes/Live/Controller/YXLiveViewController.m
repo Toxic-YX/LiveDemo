@@ -38,7 +38,7 @@
     // 准备播放
     [playerVc prepareToPlay];
     
-    // 强引用，反正被销毁
+    // 强引用，防止被销毁
     _player = playerVc;
     
     playerVc.view.frame = [UIScreen mainScreen].bounds;

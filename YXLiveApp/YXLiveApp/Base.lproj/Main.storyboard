@@ -22,25 +22,52 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OTz-jF-Nhy">
-                                <rect key="frame" x="157" y="231" width="62" height="30"/>
+                                <rect key="frame" x="157" y="117" width="62" height="30"/>
                                 <state key="normal" title="采集视屏"/>
                                 <connections>
                                     <action selector="caputreViedo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5gY-ZH-VUh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFe-6N-vyE">
-                                <rect key="frame" x="156" y="372" width="62" height="30"/>
+                                <rect key="frame" x="156" y="200" width="62" height="30"/>
                                 <state key="normal" title="播放列表"/>
                                 <connections>
                                     <action selector="playVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UHN-2B-CtU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z7P-ii-rfP">
+                                <rect key="frame" x="120" y="283" width="135" height="30"/>
+                                <state key="normal" title="GPUImage原生美颜"/>
+                                <connections>
+                                    <action selector="GPUImageFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QpX-AO-TEm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDU-ON-jTF">
+                                <rect key="frame" x="126" y="366" width="123" height="30"/>
+                                <state key="normal" title="利用美颜滤镜美颜"/>
+                                <connections>
+                                    <action selector="beautifyFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8gE-ng-SEH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSK-NL-yX5">
+                                <rect key="frame" x="126.5" y="449" width="123" height="30"/>
+                                <state key="normal" title="美图秀秀各种美颜"/>
+                                <connections>
+                                    <action selector="beautifyShows:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KcB-hn-DIm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="mSK-NL-yX5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nru-xU-L83"/>
+                            <constraint firstItem="Z7P-ii-rfP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bSt-gq-CeD"/>
                             <constraint firstItem="oFe-6N-vyE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bb1-sy-0nJ"/>
-                            <constraint firstItem="oFe-6N-vyE" firstAttribute="top" secondItem="OTz-jF-Nhy" secondAttribute="bottom" constant="111" id="ioe-1v-cMh"/>
-                            <constraint firstItem="OTz-jF-Nhy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="167" id="wtD-qR-fpU"/>
+                            <constraint firstItem="FDU-ON-jTF" firstAttribute="top" secondItem="Z7P-ii-rfP" secondAttribute="bottom" constant="53" id="cvb-LO-daj"/>
+                            <constraint firstItem="mSK-NL-yX5" firstAttribute="top" secondItem="FDU-ON-jTF" secondAttribute="bottom" constant="53" id="d1X-Wh-XPb"/>
+                            <constraint firstItem="Z7P-ii-rfP" firstAttribute="top" secondItem="oFe-6N-vyE" secondAttribute="bottom" constant="53" id="eud-zx-eJw"/>
+                            <constraint firstItem="oFe-6N-vyE" firstAttribute="top" secondItem="OTz-jF-Nhy" secondAttribute="bottom" constant="53" id="ioe-1v-cMh"/>
+                            <constraint firstItem="FDU-ON-jTF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sCf-UN-zRN"/>
+                            <constraint firstItem="OTz-jF-Nhy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="53" id="wtD-qR-fpU"/>
                             <constraint firstItem="OTz-jF-Nhy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zp4-NG-9Pq"/>
                         </constraints>
                     </view>

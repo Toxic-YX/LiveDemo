@@ -24,7 +24,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ZY-g8-Wjg">
-                    <rect key="frame" x="15" y="64" width="30" height="28"/>
+                    <rect key="frame" x="15" y="20" width="30" height="28"/>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                     <state key="normal" title="back">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -38,7 +38,7 @@
             <constraints>
                 <constraint firstItem="9YN-k0-2fi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6eO-1t-kgQ"/>
                 <constraint firstAttribute="trailing" secondItem="9YN-k0-2fi" secondAttribute="trailing" id="7iC-lw-KLx"/>
-                <constraint firstItem="7ZY-g8-Wjg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Mce-jq-ypT"/>
+                <constraint firstItem="7ZY-g8-Wjg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="Mce-jq-ypT"/>
                 <constraint firstItem="9YN-k0-2fi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="RTB-H9-I9a"/>
                 <constraint firstAttribute="bottom" secondItem="9YN-k0-2fi" secondAttribute="bottom" id="Z2K-ip-t2W"/>
                 <constraint firstItem="7ZY-g8-Wjg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="uSF-9T-Acp"/>
